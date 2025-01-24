@@ -116,4 +116,9 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    // Add this line to include react-native-reanimated
+    implementation project(':react-native-reanimated')
 }
+
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
